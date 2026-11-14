@@ -1,0 +1,17 @@
+discord.py-self==2.1.0
+aiohttp==3.14.3
+Pillow==12.3.0
+colorama==0.4.6
+pystyle==2.9
+websocket-client==1.9.0
+audioop-lts; python_version >= "3.13"
+
+# Voice playback: yt-dlp resolves streams, imageio-ffmpeg is the last-resort
+# binary provider, and PyNaCl is required for Discord voice encryption.
+yt-dlp
+imageio-ffmpeg
+PyNaCl>=1.5
+
+# Dev / testing
+pytest>=8.0
+pytest-asyncio>=0.23

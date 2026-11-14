@@ -1,0 +1,14 @@
+.DS_Store
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+# Vitest cache (cacheDir in vitest.config.ts)
+/.vitest/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example

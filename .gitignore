@@ -1,0 +1,16 @@
+config.json
+accounts.json
+data/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.bak
+*.corrupt-*
+
+# Dashboard runtime artifacts (regenerated on every run)
+dashboard/backend/bot_status.json
+dashboard/backend/voice_state.json
+dashboard/backend/runtime_state.json
+dashboard/backend/clone_results.json
+dashboard/backend/voice_commands.spool/
